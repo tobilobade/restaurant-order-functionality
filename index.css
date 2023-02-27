@@ -1,0 +1,175 @@
+body {
+    margin: 0 auto;
+    width:600px;
+    border: 2px solid lightgray;
+    position:relative;
+   
+} 
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+span, .grey{
+    color: #BBBBBB;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.remove-order{
+    cursor:pointer;
+    margin-left: 16px;
+}
+
+.header-img{
+    position: relative;
+}
+
+.header-text{
+position:absolute;
+top: 20px;
+left:20px;
+color:white;
+}
+
+hr{
+    width:80%;
+    text-align: center;
+}
+
+
+
+
+#containers {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+    padding :0 10px;
+    
+    
+}
+
+
+.emoji{
+    font-size: 89px;
+   
+}
+
+.order-text{
+    margin-right: auto;
+}
+
+.add{
+    background-color: snow;
+    border-radius: 100%;
+    font-size: 32px;
+    font-weight: bolder;
+    padding:5px 13px;
+    color:#1c1c1c;
+    border:2px solid #DEDEDE;
+    ;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.checkout{
+    display:flex;
+    justify-content: space-between;
+    padding:0 10px;
+}
+
+.checkout-section p{
+    font-size: 21px;
+    font-weight: bold;
+    display:block;
+}
+
+.checkout-section{
+    display:none;
+}
+
+.checkout-btn{
+    width:95%;
+    margin :15px auto 36px;
+    display: block;
+    padding:15px;
+    background-color:#16DB99;
+    border-radius: 5px;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+}
+
+
+.checkout-arrangement{
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* MODAL */
+.first-section{
+   
+    position:relative;
+}  
+
+#modal-container{
+ border-radius:8px;
+ display: none;
+ position: fixed;
+ top:40;
+ left:500;
+ background-color: white;
+ padding:45px;
+ box-shadow: 0px 0px  1000px 20px rgba(134, 134, 134, 0.5);
+
+}
+
+.modal-container input{
+    display: block;
+    margin:15px 0;
+    padding:15px 45px 15px 10px;
+    border-radius:8px;
+    border: 1px solid #757575;
+}
+
+
+.submit-btn{
+    margin:15px 0;
+    width:100%;
+    padding:15px 45px ;
+    border-radius:8px;
+    border: none;
+    background-color: orangered;
+   color:white;
+   font-weight:bolder;
+    cursor: pointer;
+}
+
+
+#successful-message{
+    text-align: center;
+    background:#ECFDF5;
+    color:#16DB99;
+    width:80%;
+    margin:15px auto;
+    padding:25px;
+    font-weight: bold;
+    border-radius:8px;
+    display:none;
+}
+
+#close-modal{
+    background-color: #1c1c1c;
+    color:white;
+    padding:15px;
+    border-radius:50px;
+    font-weight: bolder;
+    font-size: 24px;
+    cursor:pointer;
+}

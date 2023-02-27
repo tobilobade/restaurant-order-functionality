@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <header >
+                <div class="header-img"> 
+                    <img src="images\header-img.png" alt="A burger picture">
+
+                     <div class="header-text"> 
+                        <h1>Jimmy's Diner</h1>
+                        <p> The best burgers and pizzas in town.</p>
+                    </div>
+                </div>
+        </header>
+
+        <section class="first-section">
+            <div id="orders">
+                     <!-- <p class="emoji" id="emoji">🍕</p> 
+                   <div class="order-text">
+                    <h2 class="meal-name" id="meal-name">Pizza</h2>
+                    <p class="ingredients" id="ingredients">pepperoni,mushrom,mozarella</p>
+                    <p class"=price" id="price">$14</p>
+                   </div>
+                   <p class="add" id="add">+</p> -->
+            </div>
+            
+            <div class="checkout-section" id="checkout-section">
+                
+               <h3>Your order</h3>
+               
+        <div id="checkout-arrangement"> 
+               
+                   
+               
+        </div>
+
+               <hr>
+               <div class="checkout">
+                    <p>Total Price </p>
+                    <p id="total-price"></p>   
+                </div>
+
+               <button class="checkout-btn" id="checkout-btn"> Complete Order</button>
+            </div>
+
+            <div class="modal-container" id="modal-container">
+                <button id="close-modal">x</button>
+                <h3>Enter Card details</h3>
+                <form id="form">
+                    <input type="text" id="input-name" placeholder="Enter your name" required>
+                    <input type="tel" id="input-number"   maxlength="19" placeholder="Enter Card number" required>
+                    <input type="password" id="input-cvv" placeholder="Enter CVV"  minlength="0" maxlength="3" required>
+                    <button class="submit-btn" id="submit-btn" type="submit">Pay</button>
+                </form>
+            </div>
+
+
+            <div id="successful-message" class="successful-message">
+                
+            </div>
+        </section>
+
+
+        
+
+      
+
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
